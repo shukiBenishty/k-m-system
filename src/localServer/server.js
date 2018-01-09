@@ -1,3 +1,48 @@
+// import template from './template.js';
+// // import ServerApp from '../containers/ServerApp.jsx';
+// import express from 'express';
+// import React  from 'react';
+// import ReactDomServer  from 'react-dom/server';
+// import { StaticRouter } from 'react-router'
+// import database from '../../functions/firebase-database.js';
+//
+//
+// const appConfig = {
+//     apiKey: "AIzaSyCNzNDPMjqos1n_OfcxlVsuVjtySBwEeto",
+//     authDomain: "k-m-system.firebaseapp.com",
+//     databaseURL: "https://k-m-system.firebaseio.com",
+//     projectId: "k-m-system",
+//     storageBucket: "k-m-system.appspot.com",
+//     messagingSenderId: "487981116258"
+//   };
+//
+//
+// var app = express();
+// const ServerApp = React.createFactory(require('../../functions/build/server.bundle.js').default);
+//
+// function handleRender(req, res) {
+//       database.initializeApp(appConfig);
+//       const componentHTML = ReactDomServer.renderToString(ServerApp({url: '', context: {}, appConfig}));
+//       // const componentHTML = ReactDomServer.renderToString(<ServerApp url='' context={{}} appConfig={appConfig}/>);
+//       const html = template({
+//         content: componentHTML,
+//         state: ''
+//       });
+//     //  console.log(store.dispatch(initUrlParams(req.url)));
+//       res.status(200).send(html);
+// };
+//
+//
+// app.use(express.static('localServer/public'));
+//
+// app.get('*', handleRender);
+//
+// app.listen(3000);
+//
+
+
+
+
 "use strict";
 
 var _template = require("./template.js");

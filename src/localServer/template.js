@@ -1,3 +1,27 @@
+// export default ({state, content}) =>{
+//   return`
+// <!DOCTYPE html>
+// <html dir="rtl" lang="he">
+// <head>
+//   <title>Login</title>
+//   <meta charset="utf-8" />
+//   <link rel="stylesheet" href="https://unpkg.com/react-table@latest/react-table.css">
+// </head>
+// <body>
+//     <div id="root">${content}</div>
+//     <script>
+//     window.__PRELOADED_STATE__ = ${JSON.stringify(state)};
+//     </script>
+//     <script src="https://k-m-system.firebaseapp.com/__/firebase/4.8.1/firebase-app.js"></script>
+//     <script src="https://k-m-system.firebaseapp.com/__/firebase/4.8.1/firebase-database.js"></script>
+//     <script src="https://k-m-system.firebaseapp.com/__/firebase/init.js"></script>
+//     <script src='./client.bundle.js'></script>
+// </body>
+// </html>`;
+// };
+
+
+
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
